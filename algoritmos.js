@@ -1,11 +1,11 @@
 const inputUsuario= document.querySelector("#nombre-ingresado");
-const parrafoUno= document.querySelector ("#parrafo1");
+const parrafo1= document.querySelector ("#parrafo1");
 
 function verifica() {
     
 let valorDeUsuario = inputUsuario.value;
 
-parrafoUno.innerHTML("Hola bienvenido"+valorDeUsuario);     
+parrafo1.innerHTML="Hola bienvenido"+valorDeUsuario     
 
 
 }
