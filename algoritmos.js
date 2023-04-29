@@ -1,4 +1,4 @@
-const inputUsuario= document.querySelector(" #nombre-ingresado ");
+const inputUsuario= document.querySelector("#nombre-ingresado");
 const parrafoUno= document.querySelector ("#parrafo1");
 
 function verifica() {
